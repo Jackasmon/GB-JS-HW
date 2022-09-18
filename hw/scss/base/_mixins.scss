@@ -1,0 +1,18 @@
+@mixin before_circle {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 36.57px;
+        height: 35.82px;
+        background: $main-color;
+        border-radius: 100%;
+        z-index: -1;
+        top: -25%;
+        left: -5px;
+    }
+}
+
+@mixin divider {
+    width: 60px;
+    border: 1px solid #FFA501;
+}
