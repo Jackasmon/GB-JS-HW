@@ -74,7 +74,7 @@ class Basket {
 
 
 const cart = new Basket();
-
+cart.renderClick();
 
 
 
